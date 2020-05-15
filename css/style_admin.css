@@ -1,0 +1,56 @@
+#nav_hori a {
+    color: white;
+}
+
+#nav_hori {
+    height: 100%;
+    font-size: 15px;
+    margin-top: -30px;
+    position: fixed;
+    display: initial;
+}
+
+#princi {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.lab {
+    text-align: right;
+}
+
+#graph {
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 1280px) {
+    #nav_hori {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .lab {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #princi {
+        margin-top: 50px;
+    }
+
+    #nav_hori {
+        height: auto;
+        font-size: 15px;
+        padding-top: 80px;
+        background-color: transparent;
+        margin-top: 50px;
+        position: inherit;
+        display: flex;
+    }
+
+    #graph {
+        margin-top: auto;
+    }
+}

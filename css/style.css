@@ -1,0 +1,102 @@
+/* connexion */
+
+#con {
+    background-image: url(../images/connexion.jpg);
+    background-size: 100%;
+    color: #fff;
+}
+
+#princi {
+    margin-top: 80px;
+}
+
+/* menu */
+#recherche {
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+#logosearch {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+/* Pour les livres */
+#livre {
+    margin-bottom: 10px;
+}
+
+#img_livre {
+    text-align: center;
+    height: 200px;
+}
+
+#img_text {
+    text-align: center;
+    border-top: 2px red solid;
+    padding-top: 10px;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+#livre #img_livre {
+    height: 160px;
+}
+
+.catText {
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img_car {
+    height: 100%;
+}
+
+.lab {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1280px) {
+    #princi {
+        margin-top: 180px;
+    }
+
+    #carouselExampleControls img {
+        padding-top: 200px;
+    }
+
+    .img_car {
+        height: 60%;
+    }
+
+    #pan {
+        margin-left: 20px;
+    }
+
+    #con {
+        background-size: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .img_car {
+        height: 100%;
+    }
+
+    #navTitre {
+        width: 100%;
+    }
+
+    .recha{
+        width: 50%;
+    }
+
+}
